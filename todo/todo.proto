@@ -21,6 +21,7 @@ message getTodoParams {}
 message todoObject {
   string id = 1;
   string task = 2;
+  string userId = 3;
 }
 
 message todoResponse {
